@@ -1,0 +1,66 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100vh;
+
+    .main {
+        width: 100%;
+        max-width: 1440px;
+        padding: 30px;
+
+        .heading {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .scrollButonsContainer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 15px;
+            position: fixed;
+            left: 0;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            height: 50px;
+            width: 100%;
+            padding: 15px;
+            background-color: #000;
+
+            button {
+                width: 130px;
+                height: 30px;
+            }
+        }
+
+        .sectionA,
+        .sectionB,
+        .section,
+        .sectionC,
+        .sectionD,
+        .sectionE,
+        .sectionF {
+            font-weight: 900;
+            font-size: 32px;
+            margin-top: 50px;
+            height: 300px;
+            border: 1px solid #f00;
+            border-radius: 15px;
+            padding: 15px;
+        }
+    }
+}
