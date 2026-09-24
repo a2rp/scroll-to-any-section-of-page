@@ -1,13 +1,5 @@
-import React from 'react'
-import ScrollTo from './scrollTo'
+import ScrollTo from "./scrollTo";
 
-const App = () => {
-    return (
-        <div>
-            <ScrollTo />
-        </div>
-    )
+export default function App() {
+    return <ScrollTo />;
 }
-
-export default App
-
