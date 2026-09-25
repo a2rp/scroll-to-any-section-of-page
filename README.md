@@ -7,7 +7,7 @@ A responsive React demo for jumping between sections of a long page with fixed n
 - Smooth scrolling to the top, bottom, and six content sections
 - Active section highlighting with Intersection Observer
 - Fixed responsive header and horizontal section navigation
-- Icon-only footer links and mobile-friendly layout
+- Icon-only footer links, floating go-top control, and mobile-friendly layout
 
 ## Tech stack
 

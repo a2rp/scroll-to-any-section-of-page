@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import { FiArrowDown, FiArrowUp, FiBookOpen, FiCoffee, FiGithub, FiGlobe, FiHeart, FiLinkedin, FiMail, FiMessageCircle, FiYoutube } from "react-icons/fi";
-import { FaFacebookF } from "react-icons/fa6";
+import { FiArrowDown, FiArrowUp, FiBookOpen, FiCoffee, FiGithub, FiGlobe, FiHeart, FiLinkedin, FiMail, FiYoutube } from "react-icons/fi";
+import { FaCodepen, FaFacebookF } from "react-icons/fa6";
 import styles from "./styles.module.scss";
 
 const publicAsset = (name) => `${process.env.PUBLIC_URL || ""}/${name}`;
@@ -8,7 +8,7 @@ const publicAsset = (name) => `${process.env.PUBLIC_URL || ""}/${name}`;
 const links = [
     { label: "Portfolio", href: "https://www.ashishranjan.net/", Icon: FiGlobe },
     { label: "GitHub", href: "https://github.com/a2rp", Icon: FiGithub },
-    { label: "CodePen", href: "https://codepen.io/ash1198", Icon: FiMessageCircle },
+    { label: "CodePen", href: "https://codepen.io/ash1198", Icon: FaCodepen },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/aashishranjan", Icon: FiLinkedin },
     { label: "Facebook", href: "https://www.facebook.com/theash.ashish/", Icon: FaFacebookF },
     { label: "YouTube", href: "https://www.youtube.com/@ashishranjan-ashz?sub_confirmation=1", Icon: FiYoutube },
